@@ -1,0 +1,21 @@
+h1 {
+    font-size: 50px;
+}
+
+em.doan1 {
+    color:red;
+    font-size: 28px;
+}
+
+em.doan2 {
+    color: blue;
+    font-size: 28px;
+}
+
+em.doan3 {
+    color:green;
+    font-size: 28px;
+}
+strong {
+    color: brown;
+}
