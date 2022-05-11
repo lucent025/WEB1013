@@ -16,6 +16,27 @@ em.doan3 {
     color:green;
     font-size: 28px;
 }
+
+em.doan1bt {
+    color:red;
+    font-size: 28px;
+}
+
+em.doan2bt {
+    color:blue;
+    font-size: 28px;
+}
+
+em.doan3bt {
+    color:green;
+    font-size: 28px;
+}
+
+em.doan4bt {
+    color:red;
+    font-size: 28px;
+}
+
 strong {
     color: brown;
 }
