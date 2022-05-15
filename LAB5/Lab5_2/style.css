@@ -1,0 +1,41 @@
+.col img {
+    width: 150px;
+    height: 142px;
+    transition: transform .2s;
+}
+
+.sp {
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 5px solid red;
+    margin: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px green;
+    transition: transform .2s;
+}
+
+.sp img:hover {
+    transform: scale(3);
+}
+
+.sp:hover {
+    transform: scale(1.2);
+}
+
+.price {
+    text-align: center;
+    font-size: 28px;
+    color: red;
+}
+
+del {
+    color: gray
+}
+
+h1 {
+    color: rgb(70, 70, 198);
+    text-align: center;
+}

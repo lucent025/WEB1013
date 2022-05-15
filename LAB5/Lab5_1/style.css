@@ -1,0 +1,16 @@
+.col img {
+    width: 150px;
+    height: 142px
+}
+
+.pic {
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    border: 5px solid red;
+    margin: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px green;
+}
