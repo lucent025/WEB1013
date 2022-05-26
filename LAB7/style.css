@@ -1,0 +1,26 @@
+.v-menu {
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px gray;
+    width: fit-content;
+}
+
+.v-menu a {
+    background: url(
+        https://images.squarespace-cdn.com/content/v1/5c3e9b6f25bf02ae29a086ed/1548907309824-0W1HRSGQT4YFD2FYX2FK/orange-bullet.png?format=100w)
+        no-repeat 5px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 30px 5px 30px 120px;
+}
+
+.v-menu a:hover {
+    color: white;
+    background-color: orangered;
+}
