@@ -1,0 +1,125 @@
+.menu>ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu>ul>li>a {
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0px 10px;
+    line-height: 40px;
+}
+
+.menu>ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+
+.menu>ul>li>a:hover {
+    color: yellow;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 1px gray;
+}
+
+.menu ul ul a {
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0px 10px;
+}
+
+.menu>ul>li:hover>ul {
+    display: block;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.container>article {
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+
+.container>aside {
+    min-height: 400px;
+    width: 25%;
+    background-color: white;
+    float: right;
+}
+
+.container>aside>ul>li>a {
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: orangered;
+    padding: 0px 10px;
+    line-height: 40px;
+    border: 1px solid orangered;
+    border-left: transparent;
+}
+
+.container>aside>ul {
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid orangered;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px orangered;
+}
+
+.container>footer {
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+
+iframe [name=page] {
+    width: 100%;
+    min-height: 400px;
+}
+
+body {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header img {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
