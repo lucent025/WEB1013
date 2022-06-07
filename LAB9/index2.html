@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <form Method=”post” Enctype=”multipart/form-data”>
+        <div class="form-group">
+            <label for=""><strong>Họ và Tên</strong></label><br>
+            <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <br>
+            <label for=""><strong>Giới Tính:</strong></label>
+            <input type="radio" class="form-control" for="nam" checked>
+            <label id="nam"><strong>Nam</strong></label>
+            <input type="radio" class="form-control" for="nu">
+            <label id="nu"><strong>Nữ</strong></label>
+        </div>
+        <div class="form-group">
+            <br>
+            <label for=""><strong>Hình Ảnh:</strong></label><br>
+            <input type="file" name="" id="">
+        </div>
+        <div class="form-group">
+            <br>
+            <label for=""><strong>Quốc Tịch:</strong></label><br>
+            <select id="list">
+                <option>Vietnam</option>
+                <option>United States</option>
+                <option>China</option>
+                <option>Japan</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <br>
+            <label for=""><strong>Sở Thích:</strong></label><br>
+            <input class="form-control" type="checkbox" name="" id="">
+            <label for=""><strong>Thể thao</strong></label>
+            <input class="form-control" type="checkbox" name="" id="" checked>
+            <label for=""><strong>Du lịch</strong></label>
+            <input class="form-control" type="checkbox" name="" id="">
+            <label for=""><strong>Âm nhạc</strong></label>
+            <input class="form-control" type="checkbox" name="" id="">
+            <label for=""><strong>Ẩm thực</strong></label>
+        </div>
+        <div class="form-group">
+            <br>
+            <label for=""><strong>Ghi chú:</strong></label><br>
+            <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <hr>
+        <div class="form-group">
+            <button class="form-control">Đăng ký</button>
+            <button class="form-control">Nhập lại</button>
+        </div>
+    </form>
+</body>
+
+</html>

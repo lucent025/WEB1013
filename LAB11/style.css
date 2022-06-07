@@ -1,0 +1,36 @@
+table {
+    border-collapse: collapse;
+    width: 750px;
+}
+
+.row1, .row2 {
+    height: 45px;
+    
+}
+
+.row1 {
+    background-color:#75B43A;
+    color: white;
+}
+
+
+.row2 {
+    background-color:#E1F8CB;
+}
+
+.row3,
+.row4,
+.row5,
+.row6 {
+    text-align: center;
+}
+
+.row3.col2,.col5 {
+    color: red;
+}
+
+.col3,
+.col5 {
+    column-width: 75px;
+    text-align: center;
+}
