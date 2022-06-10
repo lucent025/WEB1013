@@ -1,0 +1,224 @@
+.menu {
+    width: 1400px;
+    height: auto;
+    margin: -10px auto;
+
+}
+
+header .logo {
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 80px;
+    position: absolute
+}
+
+header {
+    width: 1400px;
+    margin: 0px auto;
+    position: relative;
+}
+
+header a img {
+    width: 1400px;
+    height: 200px;
+}
+
+nav {
+    width: 100%;
+    background-color: khaki;
+    height: 50px;
+    margin: 0px auto;
+    text-align: center;
+
+}
+
+nav a {
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    padding: 40px 60px 0px 60px;
+    font-variant: small-caps;
+    text-shadow: 5px 5px 5px red;
+    color: white;
+}
+
+nav a:hover {
+    color: orangered;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 0px 30px;
+
+}
+
+nav ul ul {
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    width: 300px;
+    box-shadow: 0 0 3px gray;
+    border-radius: 10px;
+    background-color: rosybrown;
+}
+
+nav ul ul li a {
+    display: block;
+}
+
+nav ul li:hover ul {
+    display: block;
+    color: black;
+}
+
+article {
+    width: 80%;
+    height: 200px;
+    float: left
+}
+
+aside {
+    width: 20%;
+    height: auto;
+    background-color: darkcyan;
+    float: right;
+}
+
+aside a {
+    font-variant: inherit;
+    font-size: 22px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.hinhanh {
+    float: left;
+
+}
+
+footer {
+    clear: both;
+    width: auto;
+    height: 60px;
+    background-color: greenyellow;
+}
+
+footer p {
+    color: white;
+
+    text-shadow: 5px 5px 5px gold;
+    font-weight: bold;
+    font-size: 20px;
+    font-variant: small-caps;
+
+    padding-left: 20px;
+    float: left;
+
+}
+
+footer p:hover {
+    color: sred;
+}
+
+.bot {
+    color: white;
+
+    text-shadow: 5px 4px 10px crimson;
+    font-weight: bold;
+    font-size: 20px;
+    font-variant: small-caps;
+    float: right;
+    padding-right: 20px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/*  */
+.main {
+    display: inline-flex;
+    height: fit-content;
+}
+
+.sub {
+    height: fit-content;
+}
+
+nav a img {
+    width: 2000px;
+}
+
+.col-25 {
+    padding-top: 10px;
+    /* float: left; */
+    width: 100%;
+}
+
+.prod {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    background-color: white;
+}
+
+.prod>a>.image {
+    max-width: 98%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.prod>.price {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-family: Impact;
+    font-size: 20px;
+}
+
+.prod>.icon {
+    position: absolute;
+    width: 25px;
+    bottom: 5px;
+    right: 5px;
+}
+
+.prod>.icon img {
+    position: absolute;
+    width: 25px;
+    bottom: 5px;
+    right: 5px;
+}
+
+.prod>.new-icon {
+    position: absolute;
+    top: 4px;
+    width: 50px;
+    height: 50px;
+    right: 9px;
+}
+
+.prod>.icon>a {
+    max-width: 25px;
+}
